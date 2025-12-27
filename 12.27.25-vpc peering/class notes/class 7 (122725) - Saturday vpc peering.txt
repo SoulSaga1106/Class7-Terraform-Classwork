@@ -1,0 +1,75 @@
+class 7 (12/27/25) - Saturday
+
+week 16 (Armageddon prep): VPC Peering
+
+https://medium.com/@deepakbajaj20/how-to-set-up-vpc-peering-in-aws-a-step-by-step-guide-a009201ac421
+
+ 
+
+goal = Configure EC2s between 2 regions/accounts to communicate with each other
+
+ 
+
+Deliverables = screenshot of successful peering connection to an EC2 in your own account, and an EC2 in someone else's account. 
+
+ 
+
+Homework == repo of notes regarding the lesson, and watching up to and including section 27 of Maarek SAA Udemy
+
+ICMP ==
+The Internet Control Message Protocol (ICMP) is a network layer protocol used by network devices to diagnose network communication issues. ICMP is mainly used to determine whether or not data is reaching its intended destination in a timely manner. Commonly, the ICMP protocol is used on network devices, such as routers. ICMP is crucial for error reporting and testing, but it can also be used in distributed denial-of-service (DDoS) attacks.
+
+The primary purpose of ICMP is for error reporting. When two devices connect over the Internet, the ICMP generates errors to share with the sending device in the event that any of the data did not get to its intended destination.
+
+
+You must plan; you need to choose a human being for your partner
+
+----------------------------------------------------
+
+VPC Peering worksheet
+
+my name: Charles Keyes Jr
+my AWS account ID: 715928764535
+my VPC name: wutang-vpc
+My VPC ID (for peering): vpc-0ea83b786b3d30508
+My VPC region (for peering):eu-west-3
+
+----------------------------------------------------------------------------
+
+--Select another student's VPC to peer with--
+
+partner's name:  DaeQuan Britt
+
+partner's AWS account ID: 329599652812
+
+partner's VPC name: amcloud
+
+partner's VPC ID: vpc-01d9d3f43e50ccafd
+
+partner's VPC region: us-east-1
+
+cidr :10.19.0.0/16
+
+
+verify who youre working with via pcx number - last 4 digits
+see details: requester, pcx, cidr
+
+modify routing table with partners cidr 
+
+
+
+
+
+
+Teardown:
+EC2s
+
+peering connections
+
+nat gateways (have to wait a while for them)
+
+internet gateway
+
+vpc
+
+

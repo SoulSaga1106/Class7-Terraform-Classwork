@@ -1,0 +1,19 @@
+You must plan; you need to choose a human being for your partner
+
+----------------------------------------------------
+
+VPC Peering worksheet
+
+my name:
+my AWS account ID: 
+my VPC name:
+My VPC ID (for peering): 
+My VPC region (for peering):
+
+--Select another student's VPC to peer with--
+
+partner's name: 
+partner's AWS account ID:
+partner's VPC name: 
+partner's VPC ID:
+partner's VPC region:
